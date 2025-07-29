@@ -1,0 +1,30 @@
+# Core dependencies for PDF Chatbot (Fixed versions)
+streamlit==1.40.0
+pdfplumber==0.11.4
+
+# LangChain ecosystem (compatible versions)
+langchain==0.3.14
+langchain-core==0.3.29
+langchain-ollama==0.2.2
+langchain-community==0.3.14
+langchain-text-splitters==0.3.5
+langchain-huggingface==0.1.2
+
+# Vector database and embeddings
+faiss-cpu==1.11.0.post1
+sentence-transformers==3.0.1
+
+# PyTorch CPU-only (avoids GPU conflicts)
+torch==2.5.1+cpu --index-url https://download.pytorch.org/whl/cpu
+
+# Utilities
+requests==2.32.3
+numpy==1.26.4
+pandas==2.2.2
+
+# PDF processing alternatives
+PyPDF2==3.0.1
+
+# Optional: For better performance
+python-dotenv==1.0.1
+typing-extensions==4.12.2
