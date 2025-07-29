@@ -21,7 +21,7 @@ A modern PDF chatbot application powered by Streamlit, LangChain, and Ollama. Th
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/your-username/ai-pdf-assistant.git
+   git clone https://github.com/jeewnish/pdf-chatbot.git
    cd ai-pdf-assistant
    ```
 
